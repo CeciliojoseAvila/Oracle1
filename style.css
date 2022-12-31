@@ -1,0 +1,148 @@
+
+
+.container{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+
+}
+.logo{    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background: rgb(31, 81, 173);
+}
+.right{
+    
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.muneco{
+    
+  
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background: #F3F5FC;
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+    
+    
+}
+.tittle{
+    float: inherit;
+    margin-left: 20%;
+}
+.texto-input{
+    float: left;
+    margin-left: 10%;    
+    margin-top: 10%;
+    width: 80%;
+    height: 20%; 
+    background: #F3F5FC;
+}
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.ningun-texto{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: aquamarine;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    
+}
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: white;
+    border-radius: rgb(8, 53, 177);
+}
+.exclamacion{
+    
+    height: 18px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.5;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 20%;
+}
